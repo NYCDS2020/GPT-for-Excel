@@ -2,7 +2,7 @@
 This macro-enabled XSLM workbook allows for direct calls to the [OpenAI GPT API](https://openai.com/product#made-for-developers) via two inline functions, GPT() and GPTFillRange(). 
 ### Please note: This XLSM workbook only works on Windows!
 
-## Pre-requisites
+## Prerequisites
 For the macros on this worksheet to function properly, please follow the steps outlined below.
 
 ### Obtain an OpenAI API Key
@@ -10,8 +10,9 @@ You must obtain your own OpenAI API key for the macros in this workbook to funct
 For instructions on procuring an OpenAI API key, please see 
 https://www.windowscentral.com/software-apps/how-to-get-an-openai-api-key
 
-After receiving the OpenAI API key, insert it in the API Key box on the "Config" tab
+After receiving the OpenAI API key, insert it in the API Key cell on the "Configuration" tab
 !['API key'](/assets/001-enter-api-key.png)
+
 The API Key field will change background color to blue
 !['API key entered'](/assets/002-enter-api-key.png)
 
@@ -21,13 +22,23 @@ Depending on the delivery mode, you may have to accept one or more warnings abou
 #### If you encounter the Microsoft Excel Security Notice
 Select "Enable Macros"
 !['Enable macros'](/assets/003-ms-security-warning.png)
+
 #### When opening the workbook
 Select "Enable Content"
 !['Enable content'](/assets/004-enable-content.png)
+
 #### If you encounter the "Microsoft has blocked macros" issue
 !['Enable content'](/assets/005-ms-blocked.png)
+
 Select the properties of the xlsm file and select "Unblock"
+
 !['Enable content'](/assets/006-ms-unblock.png)
+
+## Special note about Automatic Calculation of formulas
+As the GPT() and GPTFillRange() functions are "auto-calculated" during many common spreadsheet activities, you may want to disable Automatic Calculations in the Formulas ribbon to avoid potentially costly repeated OpenAI API calls.
+!['Automatic Calculation'](/assets/13-automatic-calculation.png)
+!['Manual Calculation'](/assets/14-manual-calculation.png)
+
 
 ## GPT()
 This function simply submits your prompt to GPT and returns the result based on the wording of the input prompt and the temperature (i.e. the amount of creativity)
@@ -60,11 +71,12 @@ Contains prompt inputs to be completed by GPT.
 
 #### Fill Range:
 Will be automatically populated by GPTFillRange()
+
 !['GPTFillRange()'](/assets/012-fill-range-01.png)
 
 ### Step-by-Step Instructions - Basic Two Column Example
 
-In the first empty cell immediately following the Training Range and immediately to the right of the Input Range, type GPTFillRange(
+In the first empty cell immediately following the Training Range and immediately to the right of the Input Range, type GPTFillRange()
 !['GPTFillRange()'](/assets/012-fill-range-02.png)
 
 Next, select the Training Range
