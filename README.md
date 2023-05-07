@@ -105,6 +105,8 @@ After processing completes, the corresponding extracted values will be inserted 
 
 
 ## Stay connected!
-For more articles, news and thoughts on AI, follow me on [!['LinkedIn'](/assets/linkedin.png)](https://www.linkedin.com/in/bjornaustraat/)
+For more articles, news and thoughts on AI, follow me on 
+
+[!['LinkedIn'](/assets/linkedin.png)](https://www.linkedin.com/in/bjornaustraat/)
 
 
