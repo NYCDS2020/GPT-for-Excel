@@ -21,10 +21,12 @@ Depending on the delivery mode, you may have to accept one or more warnings abou
 
 #### If you encounter the Microsoft Excel Security Notice
 Select "Enable Macros"
+
 !['Enable macros'](/assets/003-ms-security-warning.png)
 
 #### When opening the workbook
 Select "Enable Content"
+
 !['Enable content'](/assets/004-enable-content.png)
 
 #### If you encounter the "Microsoft has blocked macros" issue
