@@ -38,8 +38,8 @@ Select the properties of the xlsm file and select "Unblock"
 
 ## Special note about Automatic Calculation of formulas
 As the GPT() and GPTFillRange() functions are "auto-calculated" during many common spreadsheet activities, you may want to disable Automatic Calculations in the Formulas ribbon to avoid potentially costly repeated OpenAI API calls.
-!['Automatic Calculation'](/assets/13-automatic-calculation.png)
-!['Manual Calculation'](/assets/14-manual-calculation.png)
+!['Automatic Calculation'](/assets/013-automatic-calculation.png)
+!['Manual Calculation'](/assets/014-manual-calculation.png)
 
 
 ## GPT()
