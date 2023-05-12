@@ -21,6 +21,10 @@ If you'd like to keep an eye on costs, set "Log Data" to "Yes" in the "Configura
 
 !['Log data'](/assets/015-log-data.png)
 
+### "#Value!" results
+During times of high demand, individual calls to the OpenAI API may time out. If this happens, the macro will simply continue processing the next operation and will display "#Value!" in the impacted cell. To clear this error, re-run the operation in the cell showing the "#Value!" result.
+
+
 
 ### Enable macros
 Depending on the delivery mode, you may have to accept one or more warnings about potentially unsafe content, i.e. the macro code in this workbook 
@@ -55,9 +59,11 @@ This function simply submits your prompt to GPT and returns the result based on 
 
 ### Basic use of GPT()
 Create a new worksheet. Enter the desired prompt text into a cell. Optionally, you can enter the text directly into the cell by typing it into the formula like =GPT("Here is my prompt"). I recommend keeping the text in a separate cell as shown below. 
+
 !['Basic example of GPT()'](/assets/007-gpt-simple.png)
 
 Upon hitting "Enter," the prompt is submitted to GPT. Depending on system load and complexity of the task, response times may vary from several seconds to up to a minute. <b> You may see a "Not responding" message, but the system is still processing the request. </b>
+
 !['Status message for GPT()'](/assets/008-gpt-dialog.png)
 
 Once the result is returned from GPT, the output is displayed in the cell containing the formula.
