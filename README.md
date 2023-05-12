@@ -16,6 +16,12 @@ After receiving the OpenAI API key, insert it in the API Key cell on the "Config
 The API Key field will change background color to blue
 !['API key entered'](/assets/002-enter-api-key.png)
 
+### Log data
+If you'd like to keep an eye on costs, set "Log Data" to "Yes" in the "Configuration" tab. This will trigger the generation of a text file called "ExcelForGPTLog.txt" in the same folder as the macro workbook to log the time, prompt, completion, total tokens and cost of each GPT API call. 
+
+!['Log data'](/assets/015-log-data.png)
+
+
 ### Enable macros
 Depending on the delivery mode, you may have to accept one or more warnings about potentially unsafe content, i.e. the macro code in this workbook 
 
