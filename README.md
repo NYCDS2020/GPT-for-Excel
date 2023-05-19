@@ -21,10 +21,11 @@ If you'd like to keep an eye on costs, set "Log Data" to "Yes" in the "Configura
 
 !['Log data'](/assets/015-log-data.png)
 
+### GPTFillRange() Prompt Configuration for One-shot / Few-shot / Multi-shot learning
+Modify the values in this section as needed. The default values perform quite well for most one-shot/few-shot/multi-shot learning tasks, so please only make changes to these values if the defaults do not deliver the desired results. 
+
 ### "#Value!" results
 During times of high demand, individual calls to the OpenAI API may time out. If this happens, the macro will simply continue processing the next operation and will display "#Value!" in the impacted cell. To clear this error, re-run the operation in the cell showing the "#Value!" result.
-
-
 
 ### Enable macros
 Depending on the delivery mode, you may have to accept one or more warnings about potentially unsafe content, i.e. the macro code in this workbook 
