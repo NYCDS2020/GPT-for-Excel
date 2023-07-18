@@ -16,6 +16,9 @@ After receiving the OpenAI API key, insert it in the API Key cell on the "Config
 The API Key field will change background color to blue
 !['API key entered'](/assets/002-enter-api-key.png)
 
+### Model selection 
+Select either gpt-3.5-turbo or gpt-4. Note the considerable cost differences for prompt and completion tokens. The cost values are automatically populated.
+
 ### Log data
 If you'd like to keep an eye on costs, set "Log Data" to "Yes" in the "Configuration" tab. This will trigger the generation of a text file called "GPTForExcelLog.txt" in the same folder as the macro workbook to log the time, prompt, completion, total tokens and cost of each GPT API call. 
 
